@@ -626,7 +626,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         } finally {
             reader.close();
         }
-
+}
     private CharSequence formatBatteryPercentageText(int batteryLevel) {
         try {
             return TextUtils.expandTemplate(getContext().getText(R.string.battery_header_title_alternate),
